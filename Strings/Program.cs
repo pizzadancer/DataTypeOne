@@ -24,9 +24,10 @@ namespace Strings
             // New Looping Replace
             string[] splitAlice = alice.Split(" ");
             foreach(string item in splitAlice)
-            {
+            { 
                 Console.WriteLine(item.ToString());
             }
+            // here we go 
            /* searchLocation = Array.IndexOf(splitAlice, input);
             Console.WriteLine(searchLocation);*/
             // If Search was successful, return true | if not, return false
